@@ -76,7 +76,7 @@ bot.on('message', msg=>{
 
 bot.on('message', msg=>{
      if(msg.content === "when will be the match"){
-          msg.reply("<#general>");
+          msg.reply('#general');
      }
 })
 
